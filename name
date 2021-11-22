@@ -1,0 +1,134 @@
+.second {
+  background-image: url(https://www.artmajeur.com/medias/hd/l/i/liudmila/artwork/11266706_4.jpg);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  align-items: center;
+  position: absolute;
+  background-attachment: fixed;
+}
+
+.block {
+  width: 420px;
+  height: 420px;
+  background: red;
+  margin: 110px;
+  animation: name 2s ease infinite;
+  animation-duration: 5s;
+  animation-play-state: inherit;
+  animation-play-state: initial;
+  animation-play-state: unset;
+  background: red;
+  border-radius: 10px;
+
+  flex: 1 1 auto;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  overflow:hidden;
+  transition: .3s;
+  border: 3px solid #F80BFD;
+  box-shadow: 10px 10px 20px 0px #F80BFD, inset 0px 0px 2px #F80BFD;
+  border-radius: 25px;
+  animation: border 3s ease infinite
+
+  padding: 5px; 
+  opacity: 0.7; 
+  filter: alpha(Opacity=70);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  text-decoration: none;
+}
+
+.block:hover {
+  background: blue;
+}
+
+.id {
+  color: white;
+}
+
+@keyframes name {
+    0% {
+      background: #1ed64f;
+      color: #1d788f;
+    }
+    17% {
+      background: #11ad99;
+    }
+    50% {
+      background: #700e75;
+      color: #8c1515;
+    }
+    100%{
+      background: #bccf17;
+      color: #191f8c;
+    }
+}
+
+.block:hover
+{
+    animation-play-state: paused
+}
+
+h1 {
+color: #b5c1c4;
+font-family: sans-serif;
+}
+
+
+p {
+  color: #b5c1c4;
+  font-family: cursive;
+}
+
+hr {
+  width: 10px;
+
+}
+
+img {
+  border-radius: 10px;
+} 
+
+
+@keyframes border{
+  from{
+    border-color: #f7f7f7;
+    box-shadow: 10px 10px 20px 0px #F80BFD, inset 0px 0px 2px #F80BFD;
+  }
+{
+  border-color: #b5c1c4;
+  box-shadow: 10px 10px 20px 0px #F80BFD, inset 0px 0px 2px #F80BFD;
+}
+{
+  border-color: #191f8c;
+  box-shadow: 10px 10px 20px 0px #F80BFD, inset 0px 0px 2px #F80BFD;
+}
+{
+  border-color: #1b4180;
+  box-shadow: 10px 10px 20px 0px #F80BFD, inset 0px 0px 2px #F80BFD;
+}
+{
+  border-color: #168c1a;
+  box-shadow: 10px 10px 20px 0px #F80BFD, inset 0px 0px 2px #F80BFD;
+}
+{
+  border-color: #868c16;
+  box-shadow: 10px 10px 20px 0px #F80BFD, inset 0px 0px 2px #F80BFD;
+}
+{
+  border-color: #8c3916;
+  box-shadow: 10px 10px 20px 0px #F80BFD, inset 0px 0px 2px #F80BFD;
+}
+}
+
